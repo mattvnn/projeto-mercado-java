@@ -1,31 +1,31 @@
-<h2>Gerenciador de Produtos</h2>
+<h2>Product Manager</h2>
 
-Gerenciador de Produtos é uma aplicação em Java feita para gerenciamento básico de um estoque, permitindo cadastrar, listar, remover e atualizar a quantidade de produtos em um sistema de mercado. Os produtos podem ser perecíveis ou não perecíveis, e cada um pertence a uma categoria e tem um fornecedor associado. 
+Product Manager is a Java application developed for basic inventory management, allowing users to register, list, remove, and update the quantity of products in a market system. Products can be either perishable or non-perishable, and each one belongs to a category and has an associated supplier.
 
-<h2>Como foi feito</h2>
+<h2>How It Was Made</h2>
 
-Este projeto foi desenvolvido em Java, utilizando apenas a biblioteca padrão. A aplicação roda em linha de comando (CLI) e usa o paradigma de orientação a objetos.
+This project was developed in Java, using only the standard library. The application runs in the command line interface (CLI) and follows the object-oriented programming paradigm.
 
-<h2>Funcionalidades</h2>
+<h2>Features</h2>
 
-Cadastrar produtos (perecíveis ou não)
+Register products (perishable or not)
 
-Remover produtos
+Remove products
 
-Adicionar quantidade a produtos existentes
+Add quantity to existing products
 
-Listar todos os produtos cadastrados (ordenados pelo nome)
+List all registered products (sorted by name)
 
-<h2>Estrutura do Projeto</h2>
+<h2>Project Structure</h2>
 
-Produto (classe abstrata)
+Product (abstract class)
 
-ProdutoPerecivel e ProdutoNaoPerecivel
+ProductPerecivel and ProductNaoPerecivel
 
-Categoria, Fornecedor
+Category, Supplier
 
-GerenciadorProdutos (responsável pela lógica de controle)
+ProductManager
 
-ProdutoNaoEncontradoException (exceção personalizada)
+ProductNotFoundException
 
-Main (ponto de entrada da aplicação)
+Main
